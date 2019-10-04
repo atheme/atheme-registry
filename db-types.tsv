@@ -1,0 +1,68 @@
+???	core	backend/corestorage	Special pseudo-type for unhandled entry types
+AC	core	backend/corestorage	Account ACCESS entries
+AR	contrib	contrib/ircd_announceserv	Announcement request
+BE	core	nickserv/badmail	Prohibited email pattern
+BLE	contrib	contrib/dnsbl	DNSBL exemption
+BLE	core	proxyscan/dnsbl	DNSBL exemption
+BOT	core	botserv/main	BotServ bot
+BOT-COUNT	core	botserv/main	Number of BotServ bots
+BW	contrib	contrib/cs_badwords	Channel badword
+CA	core	backend/corestorage	Channel access
+CF	core	backend/corestorage	Known channel access flags
+CFCHAN	core	chanfix/gather	ChanFix tracked channel
+CFDBV	core	chanfix/gather	ChanFix schema version
+CFMD	core	chanfix/gather	ChanFix tracked channel metadata
+CFOP	core	chanfix/gather	ChanFix tracked channel op record
+CLONES-CD	core	operserv/clones	OperServ clones kline duration
+CLONES-CK	core	operserv/clones	OperServ clones klines enabled
+CLONES-DBV	core	operserv/clones	OperServ clones schema version
+CLONES-EX	core	operserv/clones	OperServ clones exemption
+CLONES-GR	core	operserv/clones	OperServ clones grace count
+CSREQ	core	chanserv/moderate	Channel registration request
+DBV	core	backend/corestorage	Data schema version
+DE	core	backend/corestorage	Ignored
+FNCNS	freenode.net	freenode/projectns/main	ProjectServ channel namespace
+FNGC	freenode.net	freenode/projectns/main	ProjectServ contact account
+FNGM	freenode.net	freenode/projectns/main	ProjectServ mark
+FNGRI	freenode.net	freenode/projectns/main	ProjectServ channel registration advice
+FNGROUP	freenode.net	freenode/projectns/main	ProjectServ registration
+FNHNS	freenode.net	freenode/projectns/main	ProjectServ cloak/vhost namespace
+GACL	core	groupserv/main	GroupServ group access entry
+GDBV	core	groupserv/main	GroupServ schema version
+GE	contrib	contrib/ns_goodmail	Allowed email pattern
+GFA	core	groupserv/main	GroupServ known flags
+GRP	core	groupserv/main	GroupServ group
+GRVER	core	backend/opensex	OpenSEX grammar version
+HE	core	helpserv/ticket	HelpServ ticket
+HO	core	hostserv/offer	HostServ offered vhost
+HR	core	hostserv/request	HostServ requested vhost
+JM	contrib	contrib/os_joinmon	Pattern for users whose joins to monitor
+KID	core	backend/corestorage	Last Kline ID
+KL	core	backend/corestorage	Kline entry
+LI	core	infoserv/main	InfoServ logon info
+LIO	core	infoserv/main	InfoServ oper logon info
+LUID	core	backend/corestorage	Last entity ID
+MC	core	backend/corestorage	Channel registration (mychan)
+MCFP	core	backend/corestorage	Account CertFP
+MDA	core	backend/corestorage	Channel access metadata
+MDC	core	backend/corestorage	Channel metadata
+MDEP	core	backend/corestorage	Module dependency
+MDG	core	groupserv/main	GroupServ group metadata
+MDN	core	backend/corestorage	Formerly registered nick metadata
+MDU	core	backend/corestorage	Account metadata
+ME	core	backend/corestorage	MemoServ memo
+MI	core	backend/corestorage	MemoServ ignore
+MM	core	nickserv/multimark	Account mark
+MN	core	backend/corestorage	Account grouped nick
+MU	core	backend/corestorage	Account
+NAM	core	backend/corestorage	Formerly registered nick
+QID	core	backend/corestorage	Last Qline ID
+QL	core	backend/corestorage	Qline entry
+RM	core	nickserv/multimark	Formerly registered nick mark
+RR	core	operserv/rwatch	RWATCH regex
+RW	core	operserv/rwatch	RWATCH reason and action
+SI	core	backend/corestorage	Services ignore
+SO	core	backend/corestorage	Services operator
+SU	core	backend/corestorage	Ignored
+XID	core	backend/corestorage	Last Xline ID
+XL	core	backend/corestorage	Xline entry
